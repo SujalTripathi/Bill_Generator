@@ -15,7 +15,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://bill-generator-347e.onrender.com',
+    'https://bill-generator-orcin.vercel.app',
     process.env.CLIENT_URL
   ],
   credentials: true
